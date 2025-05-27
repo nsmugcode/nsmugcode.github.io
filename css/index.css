@@ -1,0 +1,213 @@
+.hide {
+	display: none;
+}
+.website-hero {
+	padding: 20px;
+}
+.center {
+	text-align: center;
+}
+.main-content {
+	margin: 20px;
+	border-radius: 20px;
+	background-color: #F8F8F8;
+}
+.body-info {
+	margin-top: 50px;
+}
+a {
+	text-decoration: underline;
+	color: var(--accent-color);
+}
+.secondary-content {
+	text-align: right;
+}
+:root {
+	--accent-color: rgb(42, 159, 187);
+	--accent-color-alpha: rgba(42, 159, 187, 0.716);
+	--text-color: rgb(106, 106, 106);
+	--dark-color: rgb(49, 49, 49);
+	--dark-color-alpha: rgba(49, 49, 49, 0.47);
+	--font-family: "Yanone Kaffeesatz", sans-serif;//"Manrope", sans-serif;//"Slabo 27px", serif;//"National Park", sans-serif;
+	--font-family-text: "Manrope", sans-serif;
+	--off-white-background: #f5f5f7;
+}
+/* App CSS */
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--font-family);
+	font-weight: bold !important;
+	letter-spacing: 0.05em;
+	font-style: normal;
+	color: var(--accent-color);
+}
+h5 {
+	margin-top: 1rem;
+	font-size: 1.75em;
+}
+body {
+	background-color: #f5f5f7;
+}
+p {
+	line-height: 2em;
+	font-family: var(--font-family-text);
+	font-style: normal;
+	color: var(--text-color);
+}
+.accented-text {
+	color: var(--accent-color);
+}
+.website-title {
+	margin-top: 0.75rem;
+	font-family: var(--font-family) !important;
+	letter-spacing: 0.03em;
+	font-size: 2.5em !important;
+	text-align: left;
+}
+.website-subtitle {
+	font-style: italic;
+	font-size: 15px;
+	/* text-align: right; */
+	color: var(--accent-color);
+	margin-bottom: 0px;
+}
+.section-header {
+	font-size: 2.5em;
+	color: var(--accent-color);
+	/* text-align: center; */
+	/* padding-bottom: 0.25em;
+	border-bottom: 3px solid var(--accent-color); */
+}
+.container-rounded {
+	border-radius: 2em
+}
+.container-gapped {
+	margin-top: 4em;
+	margin-bottom: 4em;
+}
+.container-gapped-thin {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+.row-gapped {
+	margin-top: 2em;
+	magrin-bottom: 2em;
+}
+.col-card {
+	border: 0.5px solid black;
+	border-radius: 1em;
+	padding: 1em;
+}
+.card-body p {
+	line-height: 1.5em;
+}
+.secondary-text {
+	font-size: 0.8em;
+	color: rgb(92, 92, 92)
+}
+.callout-info {
+	margin-top: 1em;
+	padding: 2em;
+	background-color: rgba(235, 235, 235, 0.536);
+	border-radius: 1em
+}
+.carousel-caption {
+	background-color: var(--dark-color-alpha);
+	border-radius: 1em;
+	color: white;
+	padding: 1.75em;
+}
+.carousel-caption p {
+	color: white;
+}
+.carousel-caption h5 {
+	color: white;
+}
+.container-dark {
+	padding: 2em;
+	background-color: rgba(235, 235, 235, 0.536);
+}
+.container-accent {
+	padding: 2em;
+	color: white;
+	background-color: var(--accent-color);
+}
+.container-accent p {
+	color: white;
+}
+.container-accent h2 {
+	color: white;
+}
+.header-addition {
+	color: rgb(188, 188, 188)
+}
+.nav-link {
+	color: var(--accent-color) !important;
+}
+.nav-link:hover {
+	color: var(--accent-color-alpha) !important;
+}
+.navbar-toggler {
+	border-color: var(--accent-color);
+}
+.navbar-toggler-icon {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2842, 159, 187, 1.0%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+.navbar-notice {
+	padding: 10px 10px 10px 10px;
+	background-color: var(--accent-color);
+}
+.navbar-notice p {
+	margin-bottom: 0px;
+	color: white;
+	font: var(--font-family-text);
+}
+.navbar-notice a {
+	font-weight: bold;
+	color: white;
+}
+.navbar {
+	border-bottom: 1px solid var(--accent-color-alpha);
+}
+.btn-accented {
+	background-color: var(--accent-color);
+	border-color: var(--accent-color);
+	color: white;
+}
+.btn-accented:hover {
+	background-color: var(--accent-color-alpha);
+	border-color: var(--accent-color-alpha);
+	color: white;
+}
+/* Footer */
+.main-footer {
+}
+.footer-row-main {
+	margin-bottom: 3em;
+}
+.footer-title {
+	font-size: 20px;
+}
+.footer-subtitle {
+	font-size: 0.75em;
+}
+.navbar-accented {
+	padding-top: 0px;
+	background-color: var(--off-white-background)
+}
+.navbar-brand {
+	font: var(--font-family);
+	font-size: 1.5em;
+	color: var(--accent-color);
+}
+.navbar-brand:hover {
+	color: var(--accent-color-alpha) !important;
+}
+/* Tablet down */
+@media only screen and (max-width: 768px) {
+
+}
+@media (min-width: 1000px) {
+	.container{
+		max-width: 970px;
+	}
+}
